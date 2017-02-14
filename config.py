@@ -12,7 +12,7 @@ class Config:
     MAIL_PORT = 25
     MAIL_USE_TLS = True
     MAIL_USERNAME = '1034084869@qq.com'
-    MAIL_PASSWORD = 'imljy123.456'
+    MAIL_PASSWORD = 'uejwowozcdjabdhc'
     FLASKY_MAIL_SUBJECT_PREFIX = '[Flasky]'
     FLASKY_MAIL_SENDER = '1034084869@qq.com'
     FLASKY_ADMIN = '1034084869@qq.com'
