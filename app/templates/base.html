@@ -1,12 +1,13 @@
 {% extends "bootstrap/base.html" %}
 
-{% block title %}Flasky{% endblock %}
+{% block title %}Tears{% endblock %}
 
 {% block head %}
 {{ super() }}
 <link rel="shortcut icon" href="{{ url_for('static', filename='WEB.ico') }}" type="image/x-icon">
 <link rel="icon" href="{{ url_for('static', filename='WEB.ico') }}" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+<embed height="20" width="1536"  src="static\X JAPAN - Tears.mp3" />
 {% endblock %}
 
 {% block navbar %}
@@ -19,7 +20,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{ url_for('main.index') }}">Flasky</a>
+            <a class="navbar-brand" href="{{ url_for('main.index') }}">Tears</a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
